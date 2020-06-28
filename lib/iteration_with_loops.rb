@@ -9,11 +9,12 @@ def find_min_in_nested_arrays(src)
 end
 
 def min(array)
-  row_index = 0
+  element_index = 0
   min_result = 999999999999999999999
-  while row_index < array.count do
-    if array[row_index] < min_result
-      min_result = array[row_index]
+  while element_index < array.count do
+    if array[element_index] < min_result
+      min_result = array[element_index]
     end
   end
+  min_result
 end
