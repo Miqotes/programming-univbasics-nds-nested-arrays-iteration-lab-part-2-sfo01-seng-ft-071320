@@ -5,5 +5,5 @@ def find_min_in_nested_arrays(src)
     min_reults << src[row_index].min
     row_index += 1
   end
-  min_results.min
+  min_results
 end
