@@ -26,5 +26,4 @@ outer_results = []
     row_index += 1
   end
   outer_results
-
 end
