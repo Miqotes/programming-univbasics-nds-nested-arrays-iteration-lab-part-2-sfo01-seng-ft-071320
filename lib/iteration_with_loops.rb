@@ -15,6 +15,7 @@ def min(array)
     if array[element_index] < min_result
       min_result = array[element_index]
     end
+    element_index += 1
   end
   min_result
 end
